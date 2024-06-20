@@ -1,4 +1,5 @@
-Title : Using Machine Learning Techniques for the Detection of False News
+Title : Utilizing Machine Learning For The Identification of False News
+
 
 Project consists of 2 Phases
 1. Static Phase
