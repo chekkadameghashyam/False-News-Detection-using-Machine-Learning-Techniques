@@ -7,20 +7,26 @@ Project consists of 2 Phases
 Overview :
 
 •	Two sections of the system are developed. They are Static Implementation and Dynamic Implementation. Static implementation, which uses machine learning methods, is the first element. Here's what we just take the pre processed dataset and extract its characteristics. After collecting the characteristics, they are input into four distinct classifiers: Support Vector Machine, Random Forest Classifier, Logistic Regression, and Passive-Aggressive Classifier. Next, these classifiers are used to fit the model. Following model fitting, the researchers evaluate the accuracy differences between the classifiers. To determine the performance of the model, a confusion matrix is used. In the second component, dynamic implementation, the keyword or text found in the news articles from the dataset is utilized. 
+
 •	This component likely involves deploying the trained model to make real time predictions on new news articles or texts, allowing for the dynamic classification of news as fake or real.
+
 •	The framework and system design parts go into great detail about the architecture and operation of the system, even down to the code level. These sections cover the fundamental ideas of the system and how the design embodies them, in addition to discussing how the system is implemented.
+
 •	They give a thorough rundown of the system's architecture, constituent parts, and interrelationships, elucidating how each works together to support the system's overall goals and functionality. Readers can better grasp the inner workings of the system and the reasoning behind its design choices by closely analyzing the framework and system architecture.
 
 Dataset :
 
-The dataset that our project uses is an easy-to-use and realistic dataset that 
-contains 10000 news articles simply classified as Fake or Real , where 5000 are 
-false news and 5000 were true news.
+The dataset that our project uses is an easy-to-use and realistic dataset that contains 10000 news articles simply classified as Fake or Real , where 5000 are false news and 5000 were true news.
 The attributes of the dataset are:
+
 Subject : Description about type of news article
+
 Title : Article Headline 
+
 Text : Article textual content 
+
 Class Label : Fake and Real
+
 Date : Date identification for article
 
 Conclusion : 
@@ -30,7 +36,7 @@ We compare our model with the current dataset. Results indicates that the Maximu
 
 Run :
 In Static phase to run the .ipynb file
-Whereas in  Dynamic Phase after completing Django project run as
-‘py manage.py runserver project_name ‘
+
+Whereas in  Dynamic Phase after completing Django project run as ‘py manage.py runserver project_name ‘
 
 Thank You.
