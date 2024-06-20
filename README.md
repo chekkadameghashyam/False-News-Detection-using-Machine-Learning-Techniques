@@ -34,3 +34,8 @@ Thus, we developed our classification model for false news detectors using this 
 We intend to develop our own dataset in the future that will be current and contain all the news pertinent to it.The database will be updated with the most recent data and real-time news.
 The next step is to train the model and analyze how its accuracy changes in light of the new data in order to enhance and refine it.
 
+Dynamic Phase of the project is made by using python-Django Web Frame Works. Here by only files that we made changes in an usual django new project were provided 
+and regression.py file to make a link between the machine learning to web is used. Data Csv files are also provided other than all the django files. Web application Snap is also provided.
+Go through the review pdf for outcomes.
+
+Thank You.
